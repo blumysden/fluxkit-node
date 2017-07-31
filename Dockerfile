@@ -10,7 +10,6 @@ RUN npm install -g yarn
 RUN yarn install --production -q
 COPY ./ /usr/src/app/
 
-RUN /usr/src/app/node_modules/.bin/kyt build
 
 CMD ["node", "build/server/main.js"]
 

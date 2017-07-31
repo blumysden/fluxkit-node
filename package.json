@@ -6,7 +6,6 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "@newsdev/archieml-loader": "^0.0.1",
     "archieml": "^0.4.2",
     "babel-preset-kyt-react": "0.2.0",
     "html-webpack-plugin": "2.22.0",
