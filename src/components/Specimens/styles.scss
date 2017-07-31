@@ -1,0 +1,15 @@
+
+@import '../../shared-styles/variables';
+
+h1 {
+  text-align: center;
+}
+
+.terminal {
+  @include terminal();
+  font-size: 28px;
+}
+
+label {
+  display: block;
+}

@@ -1,0 +1,27 @@
+
+$content-width: 500px;
+$padding: 15px;
+$mono: 'VT323', monospace;
+
+@mixin terminal() {
+  font-family: $mono;
+  color: green;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.terminal {
+  @include terminal();
+  font-size: 28px;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  max-width: 600px;
+  margin: 30px auto;
+}

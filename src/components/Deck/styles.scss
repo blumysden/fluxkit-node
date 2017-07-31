@@ -1,0 +1,161 @@
+.deck {
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-fig img,
+.main-fig figcaption,
+.content-inner {
+  max-width: 80vw;
+  margin: 0 auto;
+  display: block;
+}
+
+.main-content a {
+  color: #000;
+}
+
+.main-content a:hover {
+  text-decoration: none;
+}
+
+.main-fig img {
+  max-height: 90%;
+}
+
+.main-fig figcaption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.slide code {
+  margin: 1em 2em;
+  display: block;
+  font-size: 0.86em;
+}
+
+.slide .blank {
+  visibility: hidden;
+}
+
+
+/* positioning */
+
+.slide header {
+  top: 0;
+  height: 80vh;
+}
+
+.slide header .special {
+  font-size: 60px;
+  max-width: 80vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.timer {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.timer .special {
+  font-size: 42px;
+}
+
+.slide .slide-notes {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  max-width: 60vw;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.has-content header,
+.has-ugc header,
+.has-img header {
+  /*height: 15vh;*/
+  height: auto;
+  margin-top: 20px;
+}
+
+.has-content header .special,
+.has-ugc header .special,
+.has-img header .special {
+  font-size: 30px;
+}
+
+.main-fig,
+.main-content,
+.ucg-content,
+.fig-inner {
+  top: 5%;
+  height: 90vh;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.has-hed .main-fig,
+.has-hed .main-content,
+.has-hed .ugc-content,
+.has-hed .fig-inner {
+  top: 10%;
+  height: 85vh;
+}
+
+.ugc-content .ugc {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.main-fig,
+.fig-inner {
+  font-size: 18px;
+}
+
+.main-content {
+  font-size: 40px;
+}
+
+.main-content p {
+  margin: 0 auto 1em;
+}
+
+.main-fig img {
+  /*max-height: 80vh;*/
+}
+
+.has-content .main-fig {
+  top: 30%;
+  height: 65vh;
+}
+
+.has-content .fig-inner {
+  max-height: 60vh;
+}
+
+.has-img .main-content {
+  height: 20vh;
+  font-size: 36px;
+}

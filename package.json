@@ -1,0 +1,38 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@newsdev/archieml-loader": "^0.0.1",
+    "archieml": "^0.4.2",
+    "babel-preset-kyt-react": "0.2.0",
+    "html-webpack-plugin": "2.22.0",
+    "jquery": "^3.2.1",
+    "kyt": "0.6.0",
+    "react": "15.3.0",
+    "react-dom": "15.3.0",
+    "react-router-dom": "4.1.1",
+    "archieml": "^0.4.2",
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {
+    "enzyme": "2.4.1",
+    "react-addons-test-utils": "15.3.0"
+  },
+  "scripts": {
+    "dev": "kyt dev",
+    "build": "kyt build",
+    "start": "node build/server/main.js",
+    "proto": "kyt proto",
+    "test": "kyt test",
+    "test-watch": "kyt test -- --watch",
+    "test-coverage": "kyt test -- --coverage",
+    "lint": "npm run lint-script && npm run lint-style",
+    "lint-script": "kyt lint-script",
+    "lint-style": "kyt lint-style",
+    "kyt:help": "kyt --help"
+  }
+}
